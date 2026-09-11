@@ -1,16 +1,21 @@
-# React + Vite
+# Hot Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+방한 외국인이 한국의 팝업스토어와 핫플레이스를 쉽게 찾을 수 있도록 돕는 다국어 지도 웹 서비스입니다.
 
-Currently, two official plugins are available:
+## 현재 목표
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 카카오맵을 활용한 장소 및 마커 표시
+- 팝업스토어와 핫플레이스 목록 제공
+- 장소별 상세 정보와 운영 기간 안내
+- 한국어와 영어 지원
+- 카테고리 필터 및 현재 위치 기능 구현
+- 모바일 환경에 맞는 반응형 UI 제공
 
-## React Compiler
+## 기술 스택
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Vite
+- React
+- Emotion
+- Kakao Maps API
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+현재는 기본 UI와 지도 기능을 중심으로 MVP를 개발하고 있습니다.
